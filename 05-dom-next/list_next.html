@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="list_next.css">  
+    </head>
+    <body>
+        <main>
+            <div class="a">
+                <section class="hero is-info">
+                    <div class="hero-body">
+                        <div class="container">
+                            <h1 clas="title">My List</h1>
+                            <h2 class="sub">My Shooping List For This Month</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="b">
+                <section>
+                    <input type="text" id="input_item"/>
+                    <button type="submit" id="btn-add-item">Add Item</button>
+                </section>
+                <section>
+                    <h1>Items</h1>
+                    <ul class="list"></ul>
+                </section>
+            </div>
+        </main>
+
+    <script src="list_next.js"></script> 
+    <script src="dist/sweetalert2.all.min.js"></script>
+    </body>
+</html>

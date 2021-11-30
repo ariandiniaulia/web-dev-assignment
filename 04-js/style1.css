@@ -1,0 +1,12 @@
+.jumbotron{ 
+    padding: 2rem 1rem;
+    background-color: lightgray;
+}
+body.darkmode {
+    background: rgb(36, 35, 35);
+    color: black;
+}
+#theme{
+    margin-left: 100px;
+}
+
